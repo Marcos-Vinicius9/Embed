@@ -1,0 +1,18 @@
+.header {
+    background-color: #3357FF;  /* Cor de fundo do cabeçalho */
+    color: white;  /* Cor do texto */
+    padding: 20px;  /* Espaçamento interno */
+    text-align: center;  /* Centraliza o conteúdo */
+    border-bottom: 2px solid #fff;  /* Linha abaixo do cabeçalho */
+  }
+  
+  .header h1 {
+    font-size: 2.5em;  /* Tamanho do título */
+    margin: 0;  /* Remove a margem padrão */
+  }
+  
+  .header p {
+    font-size: 1.2em;  /* Tamanho do texto de descrição */
+    margin: 10px 0 0;  /* Margem acima do parágrafo */
+  }
+  
