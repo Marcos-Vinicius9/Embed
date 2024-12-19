@@ -1,11 +1,41 @@
 import React from 'react';
-import './Header.css'; // Estilo do cabeçalho
 
 const Header = () => {
   return (
-    <header className="header">
-      <h1>Bem-vindo ao Player de Vídeos Marcos e JokerFF</h1>
-      <p>Assista aos seus vídeos favoritos em um só lugar!</p>
+    <header
+      style={{
+        backgroundColor: '#1e272e',
+        color: '#ffffff',
+        padding: '20px 40px',
+        display: 'flex',
+        flexWrap: 'wrap',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+      }}
+    >
+      <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+        <h1
+          style={{
+            fontSize: '2.2rem',
+            fontWeight: 'bold',
+            margin: '0',
+            letterSpacing: '1px',
+          }}
+        >
+          EmbedTv
+        </h1>
+      </div>
+      <p
+        style={{
+          fontSize: '1.2rem',
+          fontStyle: 'italic',
+          margin: '0',
+          opacity: '0.8',
+        }}
+      >
+        "Sua paixão pelo esporte começa aqui"
+      </p>
     </header>
   );
 };
